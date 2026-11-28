@@ -1,0 +1,80 @@
+{
+  "sdk": {
+    "version": "v0.45",
+    "commit": "a7685ce8e97ce1f8a4f38253a41d54241c9124f1",
+    "file": "ps5-payload-sdk-v0.45.zip",
+    "bytes": 8838658,
+    "sha256": "5fac64093d0e3e69f2584ce7935f24f703f622d9681f1495c85b9f00d1291a2c",
+    "urls": [
+      "https://github.com/ps5-payload-dev/sdk/releases/download/v0.45/ps5-payload-sdk.zip"
+    ]
+  },
+  "sdk_source": {
+    "file": "ps5-payload-sdk-a7685ce8-source.tar.gz",
+    "bytes": 3388424,
+    "sha256": "2b3aa72a1f832923d175b7f469a5d19c51b39fba08b4757c917be5f9032a5fbf",
+    "urls": [
+      "https://codeload.github.com/ps5-payload-dev/sdk/tar.gz/a7685ce8e97ce1f8a4f38253a41d54241c9124f1"
+    ]
+  },
+  "llvm": {
+    "version": "19.1.7",
+    "package_version": "1:19.1.7-3+b1",
+    "distribution": "Debian 13 (trixie) amd64"
+  },
+  "packages": [
+    {
+      "file": "clang-19_19.1.7-3+b1_amd64.deb",
+      "bytes": 116584,
+      "sha256": "bbb74458d782b7792b61b0eed92746df5e6d033778c045cf8c2b3835b7c4efc4",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/clang-19_19.1.7-3+b1_amd64.deb"
+      ]
+    },
+    {
+      "file": "libclang-cpp19_19.1.7-3+b1_amd64.deb",
+      "bytes": 13191148,
+      "sha256": "a7d2b6df51050834f6ea5c0d5e34869c2298b0bcdaa91eff17ba3db2cd545c47",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/libclang-cpp19_19.1.7-3+b1_amd64.deb"
+      ]
+    },
+    {
+      "file": "libllvm19_19.1.7-3+b1_amd64.deb",
+      "bytes": 25978316,
+      "sha256": "db0d614d61345ca710fb73e75105f1ec6e38898fa7b3aa99fa7eb7d8b0a11d57",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/libllvm19_19.1.7-3+b1_amd64.deb"
+      ]
+    },
+    {
+      "file": "libclang-common-19-dev_19.1.7-3+b1_amd64.deb",
+      "bytes": 739932,
+      "sha256": "4018e40e2d4144fe38c45822e68cca63c1bf6c7872c3073ebb262ad4b2f9b8bc",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/libclang-common-19-dev_19.1.7-3+b1_amd64.deb"
+      ]
+    },
+    {
+      "file": "lld-19_19.1.7-3+b1_amd64.deb",
+      "bytes": 1374952,
+      "sha256": "756a805e8811d527dd2b5417f016c9342b8631fa9c1ddcd56265c13ae33bf3a4",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/lld-19_19.1.7-3+b1_amd64.deb"
+      ]
+    },
+    {
+      "file": "llvm-19_19.1.7-3+b1_amd64.deb",
+      "bytes": 16385748,
+      "sha256": "0b1b7263f4f45e261099240fdbf00fc14b42b88410fd829e041bf83ea45866cb",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/l/llvm-toolchain-19/llvm-19_19.1.7-3+b1_amd64.deb"
+      ]
+    }
+  ],
+  "payload": {
+    "file": "return-home-uri.elf",
+    "bytes": 110888,
+    "sha256": "51d18a54c67e63ab53a67e63484b932c6cd44af9d79fa973577066ee80340858"
+  }
+}
